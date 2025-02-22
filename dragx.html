@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+
+<meta name="google-adsense-account" content="ca-pub-9378112907941893">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <title> Matching Game</title>
+    <style>body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.names, .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.name {
+    padding: 10px 20px;
+    background-color: #ffeb3b;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.dropzone {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropzone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+</style>
+</head>
+<body oncontextmenu="return false">
+
+<h1>Match the Name to its Picture</h1>
+<div class="game-container">
+    <!-- Draggable animal names -->
+  <div class="names">
+    <div class="name" draggable="true" id="1">Xylophone</div>
+    <div class="name" draggable="true" id="2">Xenops</div>
+    <div class="name" draggable="true" id="3">X-ray</div>
+  </div>
+
+    <!-- Drop zones with animal images -->
+    <div class="images">
+        <div class="dropzone" data-animal="2">
+            <img src="x/xenops.png">
+        </div>
+        <div class="dropzone" data-animal="3">
+            <img src="x/x-ray.png">
+        </div>
+        <div class="dropzone" data-animal="1">
+            <img src="x/xylophone.png">
+        </div>
+    </div>
+</div>
+
+<script >// Select all draggable names and drop zones
+const names = document.querySelectorAll('.name');
+const dropzones = document.querySelectorAll('.dropzone');
+
+// Add drag event listeners to names
+names.forEach(name => {
+    name.addEventListener('dragstart', dragStart);
+});
+
+// Add drag event listeners to dropzones
+dropzones.forEach(zone => {
+    zone.addEventListener('dragover', dragOver);
+    zone.addEventListener('drop', drop);
+});
+
+// Drag functions
+function dragStart(e) {
+    e.dataTransfer.setData('text/plain', e.target.id);
+}
+
+function dragOver(e) {
+    e.preventDefault();
+}
+
+function drop(e) {
+    e.preventDefault();
+    const animalName = e.dataTransfer.getData('text/plain');
+    const targetAnimal = e.target.closest('.dropzone').dataset.animal;
+
+    // Check if the name matches the animal image
+    if (animalName === targetAnimal) {
+        const nameElement = document.getElementById(animalName);
+        e.target.closest('.dropzone').appendChild(nameElement);
+        nameElement.draggable = false; // Disable dragging once correct
+        nameElement.style.backgroundColor = '#4caf50'; // Change color to indicate correct
+        nameElement.style.cursor = 'default';
+    } else {
+        alert('Try Again!');
+    }
+}
+</script>
+</body>
+</html>
