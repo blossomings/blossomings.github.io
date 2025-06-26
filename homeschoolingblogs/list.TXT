@@ -1,0 +1,305 @@
+
+.tomato{background:tomato; border-radius:15px 50px 30px; 
+margin-bottom: 10px; padding:15px; text-align:center; color:white;}
+
+.lightblue{background:lightblue; border-radius:15px 50px 30px;
+margin-bottom: 10px; padding:15px; text-align:center;}
+
+.lightpink{background:#FADBD8; border-radius:15px 50px 30px;
+margin-bottom: 10px; padding:15px; text-align:center;}
+
+.lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
+
+.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Grades</button>
+  <div class="dropdown-content">
+  <a href="prekchecklist.html" target="_blank">Pre-K</a>
+  <a href="kg1checklist.html" target="_blank">KG1</a>
+  <a href="kg2checklist.html" target="_blank">KG2</a>
+  <a href="kg3checklist.html" target="_blank">KG3</a>
+  <a href="grade1checklist.html" target="_blank">Grade 1</a>
+  <a href="grade2checklist.html" target="_blank">Grade 2</a>
+  <a href="grade3checklist.html" target="_blank">Grade 3</a>
+  <a href="grade4checklist.html" target="_blank">Grade 4</a>
+  <a href="grade5checklist.html" target="_blank">Grade 5</a>
+  <a href="grade6checklist.html" target="_blank">Grade 6</a>
+  <a href="grade7checklist.html" target="_blank">Grade 7</a>
+  <a href="grade8checklist.html" target="_blank">Grade 8</a>
+  <a href="grade9checklist.html" target="_blank">Grade 9</a>
+  <a href="grade10checklist.html" target="_blank">Grade 10</a>
+  <a href="grade11checklist.html" target="_blank">Grade 11</a>
+  <a href="grade12checklist.html" target="_blank">Grade 12</a>
+  <a href="lifeskills.html" target="_blank">Life Skills</a>
+  </div>
+</div>
+
+
+
+
+ <div style="text-align:center;"> <img src="grade2checklist.jpg"> </div>
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="prekchecklist.html" target="_blank"> Pre-K Checklist </a>
+</div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="kg1checklist.html" target="_blank"> KG1 Checklist </a>
+</div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="kg2checklist.html" target="_blank"> KG2 Checklist </a>
+</div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="kg3checklist.html" target="_blank"> KG3 Checklist </a>
+</div>
+
+   </div>
+
+
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="grade1checklist.html" target="_blank"> Grade 1 Checklist</a>
+</div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="grade2checklist.html" target="_blank"> Grade 2 Checklist </a>
+</div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="grade3checklist.html" target="_blank"> Grade 3 Checklist </a>
+</div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="grade4checklist.html" target="_blank"> Grade 4 Checklist </a>
+</div>
+
+   </div>
+
+
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="grade5checklist.html" target="_blank"> Grade 5 Checklist </a>
+</div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="grade6checklist.html" target="_blank"> Grade 6 Checklist </a>
+</div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="grade7checklist.html" target="_blank"> Grade 7 Checklist </a>
+</div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="grade8checklist.html" target="_blank"> Grade 8 Checklist </a>
+</div>
+
+   </div>
+
+
+
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="grade9checklist.html" target="_blank"> Grade 9 Checklist </a> </div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="grade10checklist.html" target="_blank"> Grade 10 Checklist </a> </div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="grade11checklist.html" target="_blank"> Grade 11 Checklist </a> </div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="grade12checklist.html" target="_blank"> Grade 12 Checklist </a> </div>
+
+<div class="lightyellow">
+<a style="color:black; text-decoration:none;" href="lifeskills.html" target="_blank"> Life Skills </a> </div>
+
+   </div>
+
+
+
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="https://blossomings.github.io/index.html" target="_blank"> Phonics Lessons </a> </div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/shortvowels.html" target="_blank"> Short Vowels </a> </div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/longvowels.html" target="_blank"> Long Vowels </a> </div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/freeworksheets.html" target="_blank"> Free Printables </a> </div>
+
+<div class="lightyellow">
+<a style="color:black; text-decoration:none;" href="https://colorsplashing.github.io/Clipart/" target="_blank"> Clipart </a> </div>
+
+   </div>
+
+
+
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="https://colorsplashing.github.io/Englishbooks/" target="_blank"> English Coloring Books </a> </div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="https://colorsplashing.github.io/Frenchbooks/" target="_blank"> French Coloring Books </a> </div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="https://colorsplashing.github.io/Spanishbooks/" target="_blank"> Spanish Coloring Books </a> </div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="https://colorsplashing.github.io/arabicbooks/" target="_blank"> Arabic Coloring Books </a> </div>
+
+   </div>
+
+
+
+
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="https://blossomings.github.io/vocabulary.html" target="_blank"> Vocabulary </a> </div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="homeschoolapproach.html" target="_blank"> Homeschooling Approach </a> </div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="homeschool.html" target="_blank">  Homeschooling 101 </a> </div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="learningstyles.html" target="_blank"> Learning Styles </a> </div>
+
+   </div>
+
+
+
+<div class="dropshadow" style="padding:10px;">
+
+<div class="tomato">
+<a style="color:white; text-decoration:none;" href="https://blossomings.github.io/alphabetchart.html" target="_blank"> Alphabet Chart </a> </div>
+
+<div class="lightblue">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/digraphchart.html" target="_blank"> Digrapgh Chart </a> </div>
+
+<div class="lightpink">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/trigraphchart.html" target="_blank"> Trigraph Chart</a> </div>
+
+<div class="lightgrey">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/quadgraphchart.html" target="_blank"> Quadgraph Chart</a> </div>
+
+<div class="lightyellow">
+<a style="color:black; text-decoration:none;" href="https://blossomings.github.io/diphthongschart.html" target="_blank"> Diphthongs </a> </div>
+
+   </div>
+
+
+
+
+
+
+
+1. display ad square
+
+<div class="dropshadow" style="padding:10px;" align="center">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+   </div>
+
+
+
+
+2. In-feed ad
+
+<div class="dropshadow"> 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-e+q6-2m-1w+mm"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="6124802443"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+3. In-article ad
+
+<div class="dropshadow"> 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="7350254202"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+4. Multiplex ad
+
+<div class="dropshadow"> 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="2097927523"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
