@@ -2,6 +2,7 @@
 <html>
 <head>
 
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QCCH2QS7S"></script>
 <script>
@@ -11,6 +12,8 @@
 
   gtag('config', 'G-0QCCH2QS7S');
 </script>
+
+
 
 
 
@@ -30,7 +33,7 @@
 <link rel="icon" type="image/x-icon" href="logo.ico">
 
 <meta name="description" content=" Grade 5 Checklist.">
-  <meta name="keywords" content=" How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Grade 5 Lessons.">
+  <meta name="keywords" content=" Grade 5 Checklist, How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Grades Checklist.">
 
 <style>
 body{background: white; height:100%; margin:0;}
@@ -87,19 +90,6 @@ body{background: white; height:100%; margin:0;}
 
 
 
-.div{
-display:grid; 
-grid-template-columns:900px; 
-justify-content:center; 
-cursor:pointer;}
-
-.div1{ 
-text-align: left; 
-font-size:30px; 
-background:#F1F7ED; 
-padding:10px; 
-border-radius:6px; box-shadow: 1px 1px 1px grey;}
-
 .p{
 text-align:center; 
 font-size:40px; 
@@ -110,7 +100,6 @@ margin:0;}
 h1{
   text-align:center;
   font-size:40px;
-  padding:5px;
   margin:0; 
   background-image:url("paint.jpg");
   -webkit-text-fill-color:transparent; 
@@ -119,47 +108,43 @@ h1{
 .dropshadow{
   tansition: box-shadow 0.5s ease; 
   padding:10px;
+  text-align:left;
   border-radius:5px;}
 
 .dropshadow:hover{
   box-shadow: 10px 10px 20px grey;}
 
+
+a {text-decoration:none; color:BurlyWood; 
+-webkit-text-stroke:0.2px black; transition: filter 0.5s ease; }
+a:hover { filter: drop-shadow(10px 10px 10px grey);}
+
+
 img{
   width:500px;
-  border-radius: 10px;
-  }
+  border-radius: 10px;}
 
+
+
+.div{
+display:grid; 
+grid-template-columns:800px; 
+justify-content:center; 
+font-size: 25px;
+cursor:pointer;}
+
+.div1{display:grid; grid-template-columns:1fr 1fr;}
 .div2{display:grid; grid-template-columns:1fr 1fr;}
 .div3{display:grid; grid-template-columns:1fr 1fr 1fr;}
-.div4{
-  display:grid;
-  grid-template-columns:1fr 400px; 
-  text-align:left;
-  font-size: 25px;}
+.div4{display:grid; grid-template-columns:1fr 1fr 1fr 1fr;}
 
 
 
-.div5{
-  display:grid; 
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-  font-size:40px;
-  text-align:center;}
-
-.div5:hover> :not(:hover){
+.div9:hover> :not(:hover){
   filter:blur(5px);
   opacity:0.5;
 }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:25px;}
-
-.prevlesson{
-  text-align:left;
-  padding-left:20px;
-  font-size:25px;}
 
 
 .button{
@@ -171,16 +156,15 @@ img{
 
 
 .buttons{
-  background:none;
+  background:white;
   cursor:pointer;
-  font-size:25px;
+  font-size:35px;
   border-radius: 5px;
   border:none;
   font-family: Times New Roman;
   }
 
-.link{text-decoration: none; color:purple; transition:1s; padding:7px; border-radius:5px; }
-.link:hover{box-shadow: 5px 5px 5px black;}
+.ad{text-align:center;}
 
 
 .tomato{background:tomato; border-radius:15px 50px 30px; 
@@ -192,7 +176,7 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 .lightpink{background:#FADBD8; border-radius:15px 50px 30px;
 margin-bottom: 10px; padding:15px; text-align:center;}
 
-.lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; }
+.lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
 
 .lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; }
 
@@ -228,20 +212,19 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background: white; color:black; }
 
-.div{display:grid; grid-template-columns: 1fr;}
-.div1{font-size:25px;}
-.p{text-align:center; font-size:20px;}
-
 .wrapper{overflow-x:hidden;}
 
 h1{font-size:20px;}
 
 img{width:100%;}
 
+
+.div{display:grid; grid-template-columns: 1fr; font-size: 20px;}
+.div1{display:grid; grid-template-columns: 1fr}
 .div2{display:grid; grid-template-columns: 1fr;}
 .div3{display:grid; grid-template-columns: 1fr;}
 .div4{display:grid; grid-template-columns: 1fr; font-size: 20px;}
-.div5{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; font-size:25px;}
+.div5{display:grid; grid-template-columns: 1fr;}
 
 
 .button{
@@ -255,6 +238,7 @@ img{width:100%;}
 
 
 .buttons{
+  background:white;
   cursor:pointer;
   font-size:20px;
   border-radius: 5px;
@@ -262,17 +246,10 @@ img{width:100%;}
   font-family: Times New Roman;
   }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:20px;}
-
-.prevlesson{
+.pt{  
   text-align:left;
-  padding-left:20px;
-  font-size:20px;}
-
+  font-size: 25px;
+  padding:10px;}
 
 
 }
@@ -301,6 +278,7 @@ img{width:100%;}
 
 
 
+
 <div style="text-align:left;">
 <div class="dropdown">
   <button class="dropbtn"><a href="https://blossomings.github.io/" target="_blank">Home</a></button>
@@ -322,6 +300,7 @@ img{width:100%;}
   <a href="blogs.html" target="_blank">Blogs</a>
   </div>
 </div>
+
 
 
 <div class="dropdown">
@@ -351,50 +330,36 @@ img{width:100%;}
 
 
 
-
-
-
-
 </div>
 
 </div>
 </div></nav><br><br>
 
 <main>
-<h1> What Should a 5<sup>th</sup> Grader Know by the End of the Year? </h1><hr>
+<h1> What Should a 5<sup>th</sup> Grader Child Know by the End of the Year? </h1><hr>
 
 
 
 
 
-<div class="div4">
 
 
 
+<div class="div"><div class="dropshadow">
 
-<div class="dropshadow" style="padding:10px;"> 
-
- <div style="text-align:center;"> <img src="grade5checklist.jpg"> </div>
-  
+ <div style="text-align:center;"> <img src="grade5checklist.jpg"> </div>  
  <div style="text-align:center;"><b> Grade 5 </b></div><br>
-
 
 Fifth grade is a pivotal year as students prepare for the transition into middle school. At this stage, they’re expected to take more ownership of their learning, think critically, work more independently, and express themselves with greater depth and accuracy. Academically, emotionally, and socially, fifth graders are developing important skills that will carry them into their teenage years.<br><br>
 
 Here’s a comprehensive look at what a fifth grader should know by the end of the school year
 
+</div><br><br></div>
 
 
 
 
-<br><br></div>
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -407,7 +372,6 @@ Here’s a comprehensive look at what a fifth grader should know by the end of t
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -415,36 +379,30 @@ Here’s a comprehensive look at what a fifth grader should know by the end of t
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
+
+
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Reading Skills </b></div><br>
 
 By the end of Grade 5, students should be able to:<br><br>
 
 &#8277; Read and analyze a wide range of texts: novels, biographies, nonfiction articles, poetry, and historical documents.<br>
-
 &#8277; Determine the theme or main idea and support it with specific details.<br>
-
 &#8277; Summarize texts clearly and concisely.<br>
-
 &#8277; Analyze characters, settings, plot developments, and conflicts.<br>
-
 &#8277; Identify the author’s purpose, point of view, and use of figurative language.<br>
-
 &#8277; Compare and contrast texts across genres and topics.<br>
-
 &#8277; Read fluently and with expression, applying comprehension strategies as they read.
 
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-<div class="dropshadow" style="padding:10px;">
 
+
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -457,7 +415,6 @@ By the end of Grade 5, students should be able to:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -465,45 +422,30 @@ By the end of Grade 5, students should be able to:<br><br>
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b>  Writing Skills </b></div><br>
 
 Fifth graders are expected to:<br><br>
 
 &#8277; Write well-organized essays with clear introductions, body paragraphs, and conclusions.<br>
-
 &#8277; Use text evidence to support opinions or analysis.<br>
-
 &#8277; Write for various purposes: narrative, persuasive, informative/explanatory, and research-based writing.<br>
-
 &#8277; Use advanced vocabulary and vary sentence structure.<br>
-
 &#8277; Edit and revise writing for grammar, clarity, and style.<br>
-
 &#8277; Apply correct spelling, punctuation, and capitalization.<br>
-
 &#8277; Use transitions effectively to guide readers through ideas.
 
+</div><br><br></div>
 
 
 
 
 
-<br><br></div>
 
 
 
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -516,7 +458,6 @@ Fifth graders are expected to:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -526,46 +467,30 @@ Fifth graders are expected to:<br><br>
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow"> 
   
  <div style="text-align:center;"><b>  Mathematics </b></div><br>
 
 Fifth grade math includes a mix of concrete operations and abstract thinking. Students should be able to:<br><br>
 
 &#8277; Add, subtract, multiply, and divide multi-digit whole numbers.<br>
-
 &#8277; Perform operations with decimals to the hundredths place.<br>
-
 &#8277; Add and subtract fractions with unlike denominators and multiply fractions.<br>
-
 &#8277; Convert between fractions and decimals.<br>
-
 &#8277; Understand volume and measure it using unit cubes.<br>
-
 &#8277; Interpret and create line plots, bar graphs, and other visual data representations.<br>
-
 &#8277; Convert measurements within the metric and customary systems.<br>
-
 &#8277; Use order of operations (PEMDAS) to solve numerical expressions.<br>
-
 &#8277; Solve multi-step word problems using all four operations.
 
 
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-<div class="dropshadow" style="padding:10px;">
 
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -578,7 +503,6 @@ Fifth grade math includes a mix of concrete operations and abstract thinking. St
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -588,45 +512,26 @@ Fifth grade math includes a mix of concrete operations and abstract thinking. St
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Science </b></div><br>
-
-
 
 Fifth-grade science focuses on inquiry, exploration, and real-world application. By year’s end, students typically study:</b><br><br>
 
 &#8277; The scientific method: formulating hypotheses, conducting experiments, collecting data.<br>
-
 &#8277; Ecosystems, food webs, and human impact on the environment.<br>
-
 &#8277; Properties and changes in matter (solids, liquids, gases).<br>
-
 &#8277; Earth’s systems: weather, water cycle, geology, and natural resources.<br>
-
 &#8277; Space science: planets, the solar system, phases of the moon, gravity.<br>
-
 &#8277; Basic physics concepts such as force, motion, and energy transfer.
 
 
+</div><br><br></div>
 
 
 
 
-<br><br></div>
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -639,7 +544,6 @@ Fifth-grade science focuses on inquiry, exploration, and real-world application.
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -649,39 +553,25 @@ Fifth-grade science focuses on inquiry, exploration, and real-world application.
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow"> 
   
  <div style="text-align:center;"><b>  Social Studies </b></div><br>
-
 
 Depending on the curriculum, Grade 5 social studies often covers:<br><br>
 
 &#8277; Early American history or world civilizations (Ancient Greece, Egypt).<br>
-
 &#8277; U.S. geography, including states, capitals, landforms, and regions.<br>
-
 &#8277; Government structure: democracy, constitution, branches of government.<br>
-
 &#8277; Economics: supply and demand, trade, goods and services.<br>
-
 &#8277; Exploration, colonization, and the early development of societies.<br>
-
 &#8277; Citizenship, rights, and responsibilities in a community.
 
+</div><br><br></div>
 
 
 
 
-
-<br><br></div>
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -694,7 +584,6 @@ Depending on the curriculum, Grade 5 social studies often covers:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -704,37 +593,24 @@ Depending on the curriculum, Grade 5 social studies often covers:<br><br>
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow"> 
   
  <div style="text-align:center;"><b> Speaking and Listening </b></div><br>
-
 
 Fifth graders should be able to:<br><br>
 
 &#8277; Participate actively in group discussions and classroom debates.<br>
-
 &#8277; Listen respectfully and respond thoughtfully to others' ideas.<br>
-
 &#8277; Deliver oral presentations with clarity and confidence.<br>
-
 &#8277; Summarize a speaker’s main points and ask relevant questions.<br>
-
 &#8277; Use academic vocabulary and formal speaking skills.
 
+</div><br><br></div>
 
 
 
 
-
-<br><br></div>
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -747,7 +623,6 @@ Fifth graders should be able to:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -757,37 +632,25 @@ Fifth graders should be able to:<br><br>
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow"> 
   
  <div style="text-align:center;"><b> Social and Emotional Development </b></div><br>
-
 
 This age group is developing independence and personal identity. They should:<br><br>
 
 &#8277; Manage time and assignments with minimal supervision.<br>
-
 &#8277; Develop personal goals and work steadily toward them.<br>
-
 &#8277; Demonstrate empathy, cooperation, and leadership in group activities.<br>
-
 &#8277; Handle peer pressure and resolve conflicts peacefully.<br>
-
 &#8277; Reflect on their behavior and learn from mistakes.
 
+</div><br><br></div>
 
 
 
 
 
-<br><br></div>
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -800,7 +663,6 @@ This age group is developing independence and personal identity. They should:<br
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -810,38 +672,24 @@ This age group is developing independence and personal identity. They should:<br
 
 
 
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow"> 
   
  <div style="text-align:center;"><b> Technology and Research Skills </b></div><br>
 
 By the end of Grade 5, students should be comfortable with:<br><br>
 
 &#8277; Typing full-length documents and formatting them professionally.<br>
-
 &#8277; Using digital tools to research, organize, and present information.<br>
-
 &#8277; Evaluating websites and sources for credibility and accuracy.<br>
-
 &#8277; Understanding internet safety, privacy, and digital citizenship.<br>
-
 &#8277; Creating multimedia presentations.
 
+</div><br><br></div>
 
 
 
 
-
-<br><br></div>
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -854,7 +702,6 @@ By the end of Grade 5, students should be comfortable with:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -863,32 +710,27 @@ By the end of Grade 5, students should be comfortable with:<br><br>
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
+
+
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Arts and Physical Education </b></div><br>
-
 
 Fifth graders continue exploring creativity and physical wellness:<br><br>
 
 &#8277; Express themselves through music, visual arts, drama, and creative writing.<br>
-
 &#8277; Understand artistic concepts such as form, perspective, and symbolism.<br>
-
 &#8277; Participate in team sports and individual fitness challenges.<br>
-
 &#8277; Demonstrate cooperation, perseverance, and healthy competition.
 
-
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
 
-<div class="dropshadow" style="padding:10px;">
 
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -901,7 +743,6 @@ Fifth graders continue exploring creativity and physical wellness:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -912,35 +753,25 @@ Fifth graders continue exploring creativity and physical wellness:<br><br>
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> How Parents Can Support </b></div><br>
 
-
 &#8277; Talk about books, current events, and daily learning.<br>
-
 &#8277; Encourage writing—journals, stories, emails, or even blogs.<br>
-
 &#8277; Practice real-world math (budgeting, cooking, shopping).<br>
-
 &#8277; Encourage independence in organizing schoolwork and schedules.<br>
-
 &#8277; Support emotional growth by discussing friendships, feelings, and challenges.<br>
-
 &#8277; Keep open communication with teachers and attend school events.
 
-
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
 
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -953,7 +784,41 @@ Fifth graders continue exploring creativity and physical wellness:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+   </div>
 
+
+
+
+
+
+
+
+<div class="div"><div class="dropshadow">
+  
+ <div style="text-align:center;"><b> Final Thoughts </b></div><br>
+
+Grade 5 is a year of preparation, reflection, and personal growth. As students strengthen academic skills, they also begin forming the mindset and habits they’ll need for middle school and beyond. With the right combination of support and independence, your child will finish the year with the confidence and skills to take the next big step in their education journey.<br><hr>
+
+Read <a class="link" target="_blank" href="grade6checklist.html">&#9755;  Grade 6 </a>
+
+</div><br><br></div>
+
+
+
+
+<div class="ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
    </div>
 
 
@@ -965,70 +830,13 @@ Fifth graders continue exploring creativity and physical wellness:<br><br>
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
-  
- <div style="text-align:center;"><b> Final Thoughts </b></div><br>
-
-
-Grade 5 is a year of preparation, reflection, and personal growth. As students strengthen academic skills, they also begin forming the mindset and habits they’ll need for middle school and beyond. With the right combination of support and independence, your child will finish the year with the confidence and skills to take the next big step in their education journey.
-
-
-
-
-<br><br></div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div><br>
-</main>
-
-
-
-<footer>
-<div style="display:grid; grid-template-columns: 1fr 1fr;">
-
-<div class="prevlesson">
-Read <a class="link" target="_blank" 
-href="homeschool.html">&#9755;  Global Homeschooling  </a>
-</div>
-
-<div class="nextlesson">
-Read <a class="link" target="_blank" 
-href="grade6checklist.html">&#9755;  Grade 6 Checklist  </a>
-</div>
-       </div><br>
-</footer>
+</main><br>
 
 
 
@@ -1037,18 +845,14 @@ href="grade6checklist.html">&#9755;  Grade 6 Checklist  </a>
 
 
 </div>
-
-<script>
-
-  var sound1 = new Audio();
-  sound1.src = "l1/1.mp3";
+ 
 
 
 
-</script>
+
+
 
 
 
 </body>
 </html>
-
