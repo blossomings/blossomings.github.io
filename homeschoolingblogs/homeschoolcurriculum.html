@@ -2,6 +2,7 @@
 <html>
 <head>
 
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QCCH2QS7S"></script>
 <script>
@@ -11,6 +12,8 @@
 
   gtag('config', 'G-0QCCH2QS7S');
 </script>
+
+
 
 
 
@@ -29,8 +32,8 @@
 
 <link rel="icon" type="image/x-icon" href="logo.ico">
 
-<meta name="description" content="How to Choose a Homeschool Curriculum.">
-  <meta name="keywords" content=" How to start homeschooling, Homeschool Materials, Homeschooling Your Kids.">
+<meta name="description" content=" How to Choose a Homeschool Curriculum.">
+  <meta name="keywords" content=" How to Choose a Homeschool Curriculum, How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Grades Checklist.">
 
 <style>
 body{background: white; height:100%; margin:0;}
@@ -87,19 +90,6 @@ body{background: white; height:100%; margin:0;}
 
 
 
-.div{
-display:grid; 
-grid-template-columns:900px; 
-justify-content:center; 
-cursor:pointer;}
-
-.div1{ 
-text-align: left; 
-font-size:30px; 
-background:#F1F7ED; 
-padding:10px; 
-border-radius:6px; box-shadow: 1px 1px 1px grey;}
-
 .p{
 text-align:center; 
 font-size:40px; 
@@ -110,7 +100,6 @@ margin:0;}
 h1{
   text-align:center;
   font-size:40px;
-  padding:5px;
   margin:0; 
   background-image:url("paint.jpg");
   -webkit-text-fill-color:transparent; 
@@ -119,47 +108,43 @@ h1{
 .dropshadow{
   tansition: box-shadow 0.5s ease; 
   padding:10px;
+  text-align:left;
   border-radius:5px;}
 
 .dropshadow:hover{
   box-shadow: 10px 10px 20px grey;}
 
+
+a {text-decoration:none; color:BurlyWood; 
+-webkit-text-stroke:0.2px black; transition: filter 0.5s ease; }
+a:hover { filter: drop-shadow(10px 10px 10px grey);}
+
+
 img{
   width:500px;
-  border-radius: 10px;
-  }
+  border-radius: 10px;}
 
+
+
+.div{
+display:grid; 
+grid-template-columns:800px; 
+justify-content:center; 
+font-size: 25px;
+cursor:pointer;}
+
+.div1{display:grid; grid-template-columns:1fr 1fr;}
 .div2{display:grid; grid-template-columns:1fr 1fr;}
 .div3{display:grid; grid-template-columns:1fr 1fr 1fr;}
-.div4{
-  display:grid;
-  grid-template-columns:1fr 400px;
-  text-align:left;
-  font-size: 25px;}
+.div4{display:grid; grid-template-columns:1fr 1fr 1fr 1fr;}
 
 
 
-.div5{
-  display:grid; 
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-  font-size:40px;
-  text-align:center;}
-
-.div5:hover> :not(:hover){
+.div9:hover> :not(:hover){
   filter:blur(5px);
   opacity:0.5;
 }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:25px;}
-
-.prevlesson{
-  text-align:left;
-  padding-left:20px;
-  font-size:25px;}
 
 
 .button{
@@ -171,17 +156,15 @@ img{
 
 
 .buttons{
-  background:none;
+  background:white;
   cursor:pointer;
-  font-size:25px;
+  font-size:35px;
   border-radius: 5px;
   border:none;
   font-family: Times New Roman;
   }
 
-.link{text-decoration: none; color:purple; transition:1s; padding:7px; border-radius:5px; }
-.link:hover{box-shadow: 5px 5px 5px black;}
-
+.ad{text-align:center;}
 
 
 .tomato{background:tomato; border-radius:15px 50px 30px; 
@@ -195,8 +178,7 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 
 .lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
 
-.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
-
+.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; }
 
 
 @media only screen and (max-width: 1000px){
@@ -230,20 +212,19 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background: white; color:black; }
 
-.div{display:grid; grid-template-columns: 1fr;}
-.div1{font-size:25px;}
-.p{text-align:center; font-size:20px;}
-
 .wrapper{overflow-x:hidden;}
 
 h1{font-size:20px;}
 
 img{width:100%;}
 
+
+.div{display:grid; grid-template-columns: 1fr; font-size: 20px;}
+.div1{display:grid; grid-template-columns: 1fr}
 .div2{display:grid; grid-template-columns: 1fr;}
 .div3{display:grid; grid-template-columns: 1fr;}
 .div4{display:grid; grid-template-columns: 1fr; font-size: 20px;}
-.div5{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; font-size:25px;}
+.div5{display:grid; grid-template-columns: 1fr;}
 
 
 .button{
@@ -257,6 +238,7 @@ img{width:100%;}
 
 
 .buttons{
+  background:white;
   cursor:pointer;
   font-size:20px;
   border-radius: 5px;
@@ -264,16 +246,10 @@ img{width:100%;}
   font-family: Times New Roman;
   }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:20px;}
-
-.prevlesson{
+.pt{  
   text-align:left;
-  padding-left:20px;
-  font-size:20px;}
+  font-size: 25px;
+  padding:10px;}
 
 
 }
@@ -299,6 +275,7 @@ img{width:100%;}
   </div>
 </div>
 </div>
+
 
 
 
@@ -330,27 +307,22 @@ img{width:100%;}
 
 
 
-
-
-
 </div>
 
 </div>
 </div></nav><br><br>
 
 <main>
-<h1>  How to Choose a Homeschool Curriculum That Fits Your Family  </h1><hr>
+<h1> How to Choose a Homeschool Curriculum That Fits Your Family </h1><hr>
 
 
 
 
 
-<div class="div4">
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
 
 <div style="text-align:center;"><img src="homeschoolcurriculum.jpg"></div>
 
@@ -360,18 +332,12 @@ In this post, we’ll walk you through how to choose a homeschool curriculum ste
 
 
 
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -384,7 +350,6 @@ In this post, we’ll walk you through how to choose a homeschool curriculum ste
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -394,13 +359,7 @@ In this post, we’ll walk you through how to choose a homeschool curriculum ste
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;">Step 1: <b> Know Your Homeschooling Style </b></div><br>
 
@@ -410,31 +369,19 @@ href="homeschoolmethods.html">&#9755; Here</a>). Different curriculums suit diff
 <b>Examples</b><br>
 
 &#10146; Traditional families may prefer structured textbooks and worksheets.<br>
-
 &#10146; Charlotte Mason families often choose literature-based programs.<br>
-
 &#10146; Classical homeschoolers may lean toward Latin, logic, and Great Books.<br>
-
 &#10146; Unschoolers likely skip boxed curriculum altogether and use real-world resources.<br>
+&#10146; Eclectic homeschoolers mix and match across styles and publishers.
 
-&#10146; Eclectic homeschoolers mix and match across styles and publishers.<br><br>
-
-
-
-
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
 
 
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -447,7 +394,6 @@ href="homeschoolmethods.html">&#9755; Here</a>). Different curriculums suit diff
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -455,22 +401,7 @@ href="homeschoolmethods.html">&#9755; Here</a>). Different curriculums suit diff
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;">Step 2: <b> Know Your Child’s Learning Style </b></div><br>
 
@@ -479,21 +410,22 @@ The best curriculum supports how your child learns, not just what they need to k
 
 Learning Styles to Consider</b><br><br>
 
-&#10146; <b>Visual: </b><br>
-Learns best through images, diagrams, and reading<br>
-&#10146; <b>Auditory: </b><br>
-Learns best through listening and discussion<br>
-&#10146; <b>Kinesthetic: </b><br>
-Learns best through movement and hands-on activities<br>
-&#10146; <b>Read/Write: </b><br>
+<b>Visual: </b><br>
+Learns best through images, diagrams, and reading<br><br>
+
+<b>Auditory: </b><br>
+Learns best through listening and discussion<br><br>
+
+<b>Kinesthetic: </b><br>
+Learns best through movement and hands-on activities<br><br>
+
+<b>Read/Write: </b><br>
 Prefers written instructions and reading-based lessons<br><br>
 
 Read More    
 <a class="link" target="_blank" href="learningstyles.html"> &#9755; Here </a>
 
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
@@ -502,8 +434,7 @@ Read More
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -516,7 +447,6 @@ Read More
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -526,8 +456,7 @@ Read More
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"> Step 3: <b> Decide on a Full Program or DIY Plan</b></div><br>
 
@@ -536,44 +465,33 @@ You have two main options. <br><br>
 1. <b>All-in-One Boxed Curriculum</b><br>
 
 &#8277; Includes everything you need for every subject<br>
-
 &#8277; Can be open-and-go<br>
+&#8277; May come with a teacher’s guide, schedule, and assessments<br><br>
 
-&#8277; May come with a teacher’s guide, schedule, and assessments<br>
-
-<b>Best for:</b> New homeschoolers or parents who want structure and ease<br><br>
+<b>Best for:</b><br> 
+New homeschoolers or parents who want structure and ease<br><br>
 
 
 2. <b>Build-Your-Own Curriculum</b><br>
 
 &#8277; Pick and choose resources for each subject<br>
-
 &#8277; More customizable<br>
+&#8277; Allows you to blend styles or focus on specific interests<br><br>
 
-&#8277; Allows you to blend styles or focus on specific interests<br>
+<b>Best for:</b><br> 
+Experienced homeschoolers or those with specific learning goals <br><br>
 
-<b>Best for:</b> Experienced homeschoolers or those with specific learning goals <br><br>
-
-
-<b>Hybrid Idea:</b> Use a boxed curriculum for core subjects and DIY for extras like art, music, or life skills.
-
-
+<b>Hybrid Idea:</b><br> 
+Use a boxed curriculum for core subjects and DIY for extras like art, music, or life skills.
 
 
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -586,7 +504,6 @@ You have two main options. <br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -596,69 +513,43 @@ You have two main options. <br><br>
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"> Step 4: <b> Review Curriculum by Subject </b></div><br>
 
 You don’t need to choose everything at once. Start with core subjects and build from there. <br><br>
 
-What to Look For:<br>
+What to Look For:<br><br>
 
 <b>Math</b><br>
-
 &#8277; Does it teach concepts clearly?<br>
-
 &#8277; Is it mastery-based or spiral-based?<br>
-
 &#8277; Are there plenty of practice problems?<br>
-
 &#8277; Is it parent-led, student-led, or online?<br><br>
 
 <b>Language Arts</b><br>
-
 &#8277; Does it include reading, writing, grammar, and spelling?<br>
-
 &#8277; Is it literature-based or workbook-style?<br>
-
 &#8277; Is it leveled for your child’s reading ability?<br><br>
 
 <b>Science</b><br>
-
 &#8277; Does it include hands-on experiments?<br>
-
 &#8277; Is it secular or faith-based?<br>
-
 &#8277; Are there colorful visuals and simple explanations?<br><br>
 
 <b>History/Social Studies</b><br>
-
 &#8277; Does it teach from a global, diverse, or faith-based perspective?<br>
-
 &#8277; Is it story-based, timeline-based, or textbook-focused?
 
 
-
-
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
 
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -671,7 +562,6 @@ What to Look For:<br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -681,43 +571,28 @@ What to Look For:<br>
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"> Step 5: <b> Explore Online and Free Resources </b></div><br>
 
 You don’t have to spend a fortune - there are great free and low-cost curriculum options online. <br><br>
 
 &#10146; Easy Peasy All-in-One Homeschool (free, all subjects)<br>
-
 &#10146; Khan Academy (free video-based courses)<br>
-
 &#10146; Ambleside Online (Charlotte Mason)<br>
-
 &#10146; YouTube channels, podcasts, and blogs<br>
-
 &#10146; Library books and printable resources<br><br>
 
 <b>Tip:</b> Start with free resources, then invest in subjects where you need more support.
 
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
 
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -730,7 +605,6 @@ You don’t have to spend a fortune - there are great free and low-cost curricul
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -740,13 +614,9 @@ You don’t have to spend a fortune - there are great free and low-cost curricul
 
 
 
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
- <div style="text-align:center;"><b> Common Mistakes to Avoid
- </b></div><br>
+ <div style="text-align:center;"><b> Common Mistakes to Avoid </b></div><br>
 
 <b>1.</b> Buying too much at once<br>
 Start small - you don’t need every subject on Day 1.<br><br>
@@ -761,12 +631,129 @@ What works for your neighbor or favorite blogger may not work for your child.<br
 No curriculum is perfect. Feel free to supplement!
 
 
+</div><br><br></div>
 
 
 
-<br><br></div>
+
+<div class="ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+   </div>
 
 
+
+
+
+
+
+
+<div class="div"><div class="dropshadow">
+  
+ <div style="text-align:center;"> Step 6: <b> Preview and Plan Before You Buy </b></div><br>
+
+Before purchasing: <br><br>
+
+&#10146; Watch YouTube reviews or flip-through videos<br>
+&#10146; Download samples or free trials<br>
+&#10146; Read parent feedback in homeschool Facebook groups or forums<br>
+&#10146; Compare cost vs. reusability (can it be used for siblings?)
+
+</div><br><br></div>
+
+
+
+
+<div class="ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+   </div>
+
+
+
+
+
+
+
+
+
+
+<div class="div"><div class="dropshadow">
+  
+ <div style="text-align:center;"> <b> Final Thoughts </b></div><br>
+
+The best homeschool curriculum is not the most expensive or most popular - it’s the one that fits your child, your values, and your lifestyle. And remember, you can always switch or adjust later. Flexibility is one of the biggest blessings of homeschooling.<br><br>
+
+Read &#9755;   
+<a class="link" target="_blank" href="homeschoolgrades.html">  “What Should My Child Learn This Year? Homeschooling by Grade” </a> We’ll guide you through age-appropriate goals and subject suggestions for each grade level.
+
+</div><br><br></div>
+
+
+
+
+
+
+
+<div class="ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main><br>
+
+
+
+
+
+
+
+</div>
  
 
 
@@ -776,193 +763,5 @@ No curriculum is perfect. Feel free to supplement!
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
-     crossorigin="anonymous"></script>
-<!-- display ad square -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9378112907941893"
-     data-ad-slot="3318675700"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
-  
- <div style="text-align:center;"> Step 6: <b> Preview and Plan Before You Buy </b></div><br>
-
-Before purchasing: <br><br>
-
-&#10146; Watch YouTube reviews or flip-through videos<br>
-
-&#10146; Download samples or free trials<br>
-
-&#10146; Read parent feedback in homeschool Facebook groups or forums<br>
-
-&#10146; Compare cost vs. reusability (can it be used for siblings?)
-
-
-
-<br><br></div>
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
-     crossorigin="anonymous"></script>
-<!-- display ad square -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9378112907941893"
-     data-ad-slot="3318675700"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
-  
- <div style="text-align:center;">   <b> Final Thoughts </b></div><br>
-
-
-The best homeschool curriculum is not the most expensive or most popular - it’s the one that fits your child, your values, and your lifestyle. And remember, you can always switch or adjust later. Flexibility is one of the biggest blessings of homeschooling.<br><br>
-
-
-Read &#9755;   
-<a class="link" target="_blank" href="homeschoolgrades.html">  “What Should My Child Learn This Year? Homeschooling by Grade” </a> We’ll guide you through age-appropriate goals and subject suggestions for each grade level.
-
-
-
-
-
-<br><br></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div><br>
-</main>
-
-
-
-<footer>
-<div style="display:grid; grid-template-columns: 1fr 1fr;">
-
-<div class="prevlesson">
-Read <a class="link" target="_blank" 
-href="lifeskills.html">&#9755;  Life Skills  </a>
-</div>
-
-<div class="nextlesson">
-Read <a class="link" target="_blank" 
-href="learningstyles.html">&#9755; Learning Styles</a>
-</div>
-       </div><br>
-</footer>
-
-
-
-
-
-
-
-</div>
-
-<script>
-
-  var sound1 = new Audio();
-  sound1.src = "l1/1.mp3";
-
-
-
-</script>
-
-
-
 </body>
 </html>
-
