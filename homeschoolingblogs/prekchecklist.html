@@ -2,6 +2,7 @@
 <html>
 <head>
 
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QCCH2QS7S"></script>
 <script>
@@ -11,6 +12,8 @@
 
   gtag('config', 'G-0QCCH2QS7S');
 </script>
+
+
 
 
 
@@ -30,7 +33,7 @@
 <link rel="icon" type="image/x-icon" href="logo.ico">
 
 <meta name="description" content=" Pre-k Checklist.">
-  <meta name="keywords" content=" How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Pre-k Checklist.">
+  <meta name="keywords" content=" Pre-k Checklist, How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Grades Checklist.">
 
 <style>
 body{background: white; height:100%; margin:0;}
@@ -87,19 +90,6 @@ body{background: white; height:100%; margin:0;}
 
 
 
-.div{
-display:grid; 
-grid-template-columns:900px; 
-justify-content:center; 
-cursor:pointer;}
-
-.div1{ 
-text-align: left; 
-font-size:30px; 
-background:#F1F7ED; 
-padding:10px; 
-border-radius:6px; box-shadow: 1px 1px 1px grey;}
-
 .p{
 text-align:center; 
 font-size:40px; 
@@ -110,7 +100,6 @@ margin:0;}
 h1{
   text-align:center;
   font-size:40px;
-  padding:5px;
   margin:0; 
   background-image:url("paint.jpg");
   -webkit-text-fill-color:transparent; 
@@ -119,47 +108,43 @@ h1{
 .dropshadow{
   tansition: box-shadow 0.5s ease; 
   padding:10px;
+  text-align:left;
   border-radius:5px;}
 
 .dropshadow:hover{
   box-shadow: 10px 10px 20px grey;}
 
+
+a {text-decoration:none; color:BurlyWood; 
+-webkit-text-stroke:0.2px black; transition: filter 0.5s ease; }
+a:hover { filter: drop-shadow(10px 10px 10px grey);}
+
+
 img{
   width:500px;
-  border-radius: 10px;
-  }
+  border-radius: 10px;}
 
+
+
+.div{
+display:grid; 
+grid-template-columns:800px; 
+justify-content:center; 
+font-size: 25px;
+cursor:pointer;}
+
+.div1{display:grid; grid-template-columns:1fr 1fr;}
 .div2{display:grid; grid-template-columns:1fr 1fr;}
 .div3{display:grid; grid-template-columns:1fr 1fr 1fr;}
-.div4{
-  display:grid;
-  grid-template-columns:1fr 400px;
-  text-align:left;
-  font-size: 25px;}
+.div4{display:grid; grid-template-columns:1fr 1fr 1fr 1fr;}
 
 
 
-.div5{
-  display:grid; 
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-  font-size:40px;
-  text-align:center;}
-
-.div5:hover> :not(:hover){
+.div9:hover> :not(:hover){
   filter:blur(5px);
   opacity:0.5;
 }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:25px;}
-
-.prevlesson{
-  text-align:left;
-  padding-left:20px;
-  font-size:25px;}
 
 
 .button{
@@ -171,17 +156,15 @@ img{
 
 
 .buttons{
-  background:none;
+  background:white;
   cursor:pointer;
-  font-size:25px;
+  font-size:35px;
   border-radius: 5px;
   border:none;
   font-family: Times New Roman;
   }
 
-.link{text-decoration: none; color:purple; transition:1s; padding:7px; border-radius:5px; }
-.link:hover{box-shadow: 5px 5px 5px black;}
-
+.ad{text-align:center;}
 
 
 .tomato{background:tomato; border-radius:15px 50px 30px; 
@@ -195,6 +178,7 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 
 .lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
 
+.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; }
 
 
 @media only screen and (max-width: 1000px){
@@ -228,20 +212,19 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background: white; color:black; }
 
-.div{display:grid; grid-template-columns: 1fr;}
-.div1{font-size:25px;}
-.p{text-align:center; font-size:20px;}
-
 .wrapper{overflow-x:hidden;}
 
 h1{font-size:20px;}
 
 img{width:100%;}
 
+
+.div{display:grid; grid-template-columns: 1fr; font-size: 20px;}
+.div1{display:grid; grid-template-columns: 1fr}
 .div2{display:grid; grid-template-columns: 1fr;}
 .div3{display:grid; grid-template-columns: 1fr;}
 .div4{display:grid; grid-template-columns: 1fr; font-size: 20px;}
-.div5{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; font-size:25px;}
+.div5{display:grid; grid-template-columns: 1fr;}
 
 
 .button{
@@ -255,6 +238,7 @@ img{width:100%;}
 
 
 .buttons{
+  background:white;
   cursor:pointer;
   font-size:20px;
   border-radius: 5px;
@@ -262,17 +246,10 @@ img{width:100%;}
   font-family: Times New Roman;
   }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:20px;}
-
-.prevlesson{
+.pt{  
   text-align:left;
-  padding-left:20px;
-  font-size:20px;}
-
+  font-size: 25px;
+  padding:10px;}
 
 
 }
@@ -301,6 +278,7 @@ img{width:100%;}
 
 
 
+
 <div style="text-align:left;">
 <div class="dropdown">
   <button class="dropbtn"><a href="https://blossomings.github.io/" target="_blank">Home</a></button>
@@ -322,6 +300,8 @@ img{width:100%;}
   <a href="blogs.html" target="_blank">Blogs</a>
   </div>
 </div>
+
+
 
 <div class="dropdown">
   <button class="dropbtn">Grades</button>
@@ -350,11 +330,6 @@ img{width:100%;}
 
 
 
-
-
-
-
-
 </div>
 
 </div>
@@ -367,15 +342,12 @@ img{width:100%;}
 
 
 
-<div class="div4">
 
 
 
+<div class="div"><div class="dropshadow">
 
-<div class="dropshadow" style="padding:10px;"> 
-
- <div style="text-align:center;"><img src="prekchecklist.jpg"></div>
-  
+ <div style="text-align:center;"><img src="prekchecklist.jpg"></div>  
  <div style="text-align:center;"><b>Pre-Kindergarten</b></div><br>
 
 
@@ -383,17 +355,12 @@ As your little one completes Pre-K, you may be wondering: “What should my chil
 
 In this post, we’ll explore the key milestones and learning goals your child should generally reach by the end of Pre-K.
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -406,7 +373,6 @@ In this post, we’ll explore the key milestones and learning goals your child s
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -416,13 +382,7 @@ In this post, we’ll explore the key milestones and learning goals your child s
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Language and Literacy Development  </b></div><br>
 
@@ -431,32 +391,24 @@ By the end of Pre-K, children are building the building blocks of reading and wr
 <b>Skills to expect:</b><br>
 
 &#8277; Recognize most uppercase and lowercase letters.<br>
-
 &#8277; Begin to understand that letters make sounds (“B says /b/”).<br>
-
 &#8277; Write their own name using letters or early attempts at spelling.<br>
-
 &#8277; Understand the basics of how books work (reading from left).<br>
-
 &#8277; Listen to stories and retell key events using their own words.<br>
-
 &#8277; Speak clearly in full sentences and engage in simple conversations.<br><br>
 
 <b>Tip for parents: </b><br>
 
 Read aloud daily, label household items, and ask open-ended questions like “What do you think will happen next?”
 
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -469,7 +421,6 @@ Read aloud daily, label household items, and ask open-ended questions like “Wh
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -477,51 +428,35 @@ Read aloud daily, label household items, and ask open-ended questions like “Wh
 
 
 
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Math Readiness </b></div><br>
-
 
 Early math isn’t just about numbers - it’s about patterns, logic, and problem-solving. Pre-K learners should begin to develop a strong number sense.<br><br>
 
 <b>By the end of Pre-K, most children can:</b><br>
 
 &#8277; Count from 1 to 20 aloud.<br>
-
 &#8277; Recognize and name numbers 0 to 10.<br>
-
 &#8277; Understand one-to-one correspondence (placing one object per count).<br>
-
 &#8277; Identify basic shapes: circle, square, triangle, rectangle.<br>
-
 &#8277; Compare objects using terms like big/small, more/less, and tall/short.<br>
-
 &#8277; Recognize patterns and create simple ones (red-blue-red-blue).<br><br>
 
 <b>Tip for parents:</b><br>
 
 Use everyday moments like setting the table or sorting laundry to reinforce math concepts naturally.
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-<div class="dropshadow" style="padding:10px;">
 
+
+
+
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -534,7 +469,6 @@ Use everyday moments like setting the table or sorting laundry to reinforce math
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -544,13 +478,7 @@ Use everyday moments like setting the table or sorting laundry to reinforce math
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Cognitive Skills and Thinking Abilities  </b></div><br>
 
@@ -559,15 +487,10 @@ Pre-K helps children develop memory, attention, reasoning, and problem-solving s
 <b>Expect skills like:</b><br>
 
 &#8277; Completing simple puzzles.<br>
-
 &#8277; Matching and sorting objects by size, shape, or color.<br>
-
 &#8277; Understand cause and effect ("If I push this, it falls").<br>
-
 &#8277; Asking “why” questions to explore how the world works.<br>
-
 &#8277; Engaging in pretend play that shows creativity and planning.<br>
-
 &#8277; Showing curiosity and persistence when facing a challenge.<br><br>
 
 <b>Tip for parents:</b><br>
@@ -575,16 +498,13 @@ Pre-K helps children develop memory, attention, reasoning, and problem-solving s
 Offer puzzles, blocks, and open-ended questions to build brainpower through play.
 
 
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -597,7 +517,6 @@ Offer puzzles, blocks, and open-ended questions to build brainpower through play
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -607,54 +526,38 @@ Offer puzzles, blocks, and open-ended questions to build brainpower through play
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Fine and Gross Motor Skills </b></div><br>
-
 
 Pre-K learners develop both small muscle (fine motor) and large muscle (gross motor) skills.<br><br>
 
 <b>Fine motor skills:</b><br>
 
 &#8277; Hold a pencil, crayon, or marker with a tripod grip.<br>
-
 &#8277; Draw basic shapes and simple human figures.<br>
-
 &#8277; Use scissors to cut along lines or shapes.<br>
-
 &#8277; Trace letters and numbers with guidance.<br><br>
 
 <b>Gross motor skills:</b><br>
 
 &#8277; Run, jump, and climb with balance.<br>
-
 &#8277; Throw, catch, and kick a ball.<br>
-
 &#8277; Ride a tricycle or scooter.<br>
-
 &#8277; Move rhythmically to music (hop, twirl, dance).<br><br>
 
 
 <b>Tip for parents:</b><br>
 Encourage art projects, playdough, and outdoor play to support motor development.
 
-
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
 
 
-<div class="dropshadow" style="padding:10px;">
+<div class="div"><div class="dropshadow">
 
 <div class="tomato">
 <a style="color:white; text-decoration:none;" href="https://blossomings.github.io/index.html" target="_blank"> Phonics Lessons </a>
@@ -672,7 +575,7 @@ Encourage art projects, playdough, and outdoor play to support motor development
 <a style="color:black; text-decoration:none;" href="https://blossomings.github.io/freeworksheets.html" target="_blank"> Free Printables </a>
 </div>
 
-   </div>
+</div><br><br></div>
 
 
 
@@ -681,49 +584,33 @@ Encourage art projects, playdough, and outdoor play to support motor development
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Social and Emotional Skills </b></div><br>
-
 
 This is a huge part of Pre-K readiness. Social and emotional development helps children work with others, manage feelings, and build independence.<br><br>
 
 <b>A child finishing Pre-K can typically:</b><br>
 
 &#8277; Take turns and share with others.<br>
-
 &#8277; Follow simple rules and routines.<br>
-
 &#8277; Show empathy and begin to understand others’ feelings.<br>
-
 &#8277; Handle separation from parents more easily.<br>
-
 &#8277; Use the restroom independently and wash hands afterward.<br>
-
 &#8277; Express feelings using words (“I’m sad because I miss my mom”).<br><br>
 
 <b>Tip for parents: </b><br>
 
 Talk about feelings often and praise your child’s efforts in being kind, patient, or cooperative.
 
+</div><br><br></div>
 
 
 
 
 
-<br><br></div>
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -736,7 +623,6 @@ Talk about feelings often and praise your child’s efforts in being kind, patie
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -746,47 +632,29 @@ Talk about feelings often and praise your child’s efforts in being kind, patie
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Science, Nature, and General Knowledge </b></div><br>
-
 
 Pre-K children are naturally curious! They should begin exploring the world around them and asking questions.<br><br>
 
 <b>They may be able to:</b><br>
 
 &#8277; Identify animals, weather conditions, seasons, and body parts.<br>
-
 &#8277; Observe and describe things using their five senses.<br>
-
 &#8277; Ask questions like “Why is the sky blue?” or “Where does rain come from?”<br>
-
 &#8277; Participate in basic science activities, like planting seeds or mixing colors.<br><br>
 
 <b>Tip for parents:</b><br>
 
 Go on nature walks, look at the stars, or explore water and sand play at home.
 
+</div><br><br></div>
 
 
 
 
-
-<br><br></div>
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -799,7 +667,6 @@ Go on nature walks, look at the stars, or explore water and sand play at home.
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -809,46 +676,31 @@ Go on nature walks, look at the stars, or explore water and sand play at home.
 
 
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Self-Help and Daily Life Skills </b></div><br>
-
 
 Independence is key for kindergarten readiness. By the end of Pre-K, children should be managing some self-care tasks on their own.<br><br>
 
 <b>These include:</b><br>
 
 &#8277; Dressing themselves (zipping, buttoning, or putting on shoes).<br>
-
 &#8277; Cleaning up after activities or meals.<br>
-
 &#8277; Using the restroom without help.<br>
-
 &#8277; Taking care of personal belongings (backpack, coat, lunchbox).<br>
-
 &#8277; Following a simple schedule (snack time, clean-up time, nap time).<br><br>
 
 <b>Tip for parents:</b><br>
 
 Let your child take the lead in simple routines to build confidence and responsibility.
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
-
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -861,7 +713,6 @@ Let your child take the lead in simple routines to build confidence and responsi
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -871,11 +722,7 @@ Let your child take the lead in simple routines to build confidence and responsi
 
 
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Final Thoughts </b></div><br>
 
@@ -885,19 +732,12 @@ Remember, every child develops at their own pace. Some may be early readers, whi
 
 The end of Pre-K is not a finish line, it’s a launchpad into lifelong learning. Whether your child is headed to kindergarten or continuing in a homeschool setting, they’ve already built the foundation for success.
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-
-
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -910,7 +750,6 @@ The end of Pre-K is not a finish line, it’s a launchpad into lifelong learning
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -924,38 +763,29 @@ The end of Pre-K is not a finish line, it’s a launchpad into lifelong learning
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
+
+
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> Summary Checklist </b></div><br>
-
 
 By the end of Pre-K, most children can:<br><br>
 
 &#8277; Recognize most letters and some letter sounds<br>
-
 &#8277; Count to 20 and recognize numbers to 10<br>
-
 &#8277; Hold a pencil and cut with scissors<br>
-
 &#8277; Follow 2–3 step instructions<br>
-
 &#8277; Get along with peers and express emotions<br>
+&#8277; Show independence in self-care tasks<br><hr>
 
-&#8277; Show independence in self-care tasks
+Read <a class="link" target="_blank" href="homeschool.html">&#9755;  Global Homeschooling </a>
 
-
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
 
-
-
-
-<div class="dropshadow" style="padding:10px;">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -968,7 +798,6 @@ By the end of Pre-K, most children can:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -986,36 +815,7 @@ By the end of Pre-K, most children can:<br><br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-</div><br>
-</main>
-
-
-
-<footer>
-<div style="display:grid; grid-template-columns: 1fr 1fr;">
-
-<div class="prevlesson">
-Read <a class="link" target="_blank" 
-href="homeschool.html">&#9755;  Global Homeschooling  </a>
-</div>
-
-<div class="nextlesson">
-Read <a class="link" target="_blank" 
-href="homeschoolapproach.html">&#9755;  Homeschooling Approach </a>
-</div>
-       </div><br>
-</footer>
+</main><br>
 
 
 
@@ -1024,18 +824,14 @@ href="homeschoolapproach.html">&#9755;  Homeschooling Approach </a>
 
 
 </div>
-
-<script>
-
-  var sound1 = new Audio();
-  sound1.src = "l1/1.mp3";
+ 
 
 
 
-</script>
+
+
 
 
 
 </body>
 </html>
-
