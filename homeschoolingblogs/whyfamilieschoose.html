@@ -2,6 +2,7 @@
 <html>
 <head>
 
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QCCH2QS7S"></script>
 <script>
@@ -11,6 +12,8 @@
 
   gtag('config', 'G-0QCCH2QS7S');
 </script>
+
+
 
 
 
@@ -29,8 +32,8 @@
 
 <link rel="icon" type="image/x-icon" href="logo.ico">
 
-<meta name="description" content="Why Families Choose Homeschooling.">
-  <meta name="keywords" content=" How to start homeschooling, Homeschool Materials, Homeschooling Your Kids.">
+<meta name="description" content=" Why Families Choose Homeschooling.">
+  <meta name="keywords" content=" Why Families Choose Homeschooling, How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Grades Checklist.">
 
 <style>
 body{background: white; height:100%; margin:0;}
@@ -87,19 +90,6 @@ body{background: white; height:100%; margin:0;}
 
 
 
-.div{
-display:grid; 
-grid-template-columns:900px; 
-justify-content:center; 
-cursor:pointer;}
-
-.div1{ 
-text-align: left; 
-font-size:30px; 
-background:#F1F7ED; 
-padding:10px; 
-border-radius:6px; box-shadow: 1px 1px 1px grey;}
-
 .p{
 text-align:center; 
 font-size:40px; 
@@ -110,7 +100,6 @@ margin:0;}
 h1{
   text-align:center;
   font-size:40px;
-  padding:5px;
   margin:0; 
   background-image:url("paint.jpg");
   -webkit-text-fill-color:transparent; 
@@ -119,47 +108,43 @@ h1{
 .dropshadow{
   tansition: box-shadow 0.5s ease; 
   padding:10px;
+  text-align:left;
   border-radius:5px;}
 
 .dropshadow:hover{
   box-shadow: 10px 10px 20px grey;}
 
+
+a {text-decoration:none; color:BurlyWood; 
+-webkit-text-stroke:0.2px black; transition: filter 0.5s ease; }
+a:hover { filter: drop-shadow(10px 10px 10px grey);}
+
+
 img{
   width:500px;
-  border-radius: 10px;
-  }
+  border-radius: 10px;}
 
+
+
+.div{
+display:grid; 
+grid-template-columns:800px; 
+justify-content:center; 
+font-size: 25px;
+cursor:pointer;}
+
+.div1{display:grid; grid-template-columns:1fr 1fr;}
 .div2{display:grid; grid-template-columns:1fr 1fr;}
 .div3{display:grid; grid-template-columns:1fr 1fr 1fr;}
-.div4{
-  display:grid;
-  grid-template-columns:1fr 400px;
-  text-align:left;
-  font-size: 25px;}
+.div4{display:grid; grid-template-columns:1fr 1fr 1fr 1fr;}
 
 
 
-.div5{
-  display:grid; 
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-  font-size:40px;
-  text-align:center;}
-
-.div5:hover> :not(:hover){
+.div9:hover> :not(:hover){
   filter:blur(5px);
   opacity:0.5;
 }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:25px;}
-
-.prevlesson{
-  text-align:left;
-  padding-left:20px;
-  font-size:25px;}
 
 
 .button{
@@ -171,17 +156,15 @@ img{
 
 
 .buttons{
-  background:none;
+  background:white;
   cursor:pointer;
-  font-size:25px;
+  font-size:35px;
   border-radius: 5px;
   border:none;
   font-family: Times New Roman;
   }
 
-.link{text-decoration: none; color:purple; transition:1s; padding:7px; border-radius:5px; }
-.link:hover{box-shadow: 5px 5px 5px black;}
-
+.ad{text-align:center;}
 
 
 .tomato{background:tomato; border-radius:15px 50px 30px; 
@@ -195,8 +178,7 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 
 .lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
 
-.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
-
+.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; }
 
 
 @media only screen and (max-width: 1000px){
@@ -230,20 +212,19 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background: white; color:black; }
 
-.div{display:grid; grid-template-columns: 1fr;}
-.div1{font-size:25px;}
-.p{text-align:center; font-size:20px;}
-
 .wrapper{overflow-x:hidden;}
 
 h1{font-size:20px;}
 
 img{width:100%;}
 
+
+.div{display:grid; grid-template-columns: 1fr; font-size: 20px;}
+.div1{display:grid; grid-template-columns: 1fr}
 .div2{display:grid; grid-template-columns: 1fr;}
 .div3{display:grid; grid-template-columns: 1fr;}
 .div4{display:grid; grid-template-columns: 1fr; font-size: 20px;}
-.div5{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; font-size:25px;}
+.div5{display:grid; grid-template-columns: 1fr;}
 
 
 .button{
@@ -257,6 +238,7 @@ img{width:100%;}
 
 
 .buttons{
+  background:white;
   cursor:pointer;
   font-size:20px;
   border-radius: 5px;
@@ -264,16 +246,10 @@ img{width:100%;}
   font-family: Times New Roman;
   }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:20px;}
-
-.prevlesson{
+.pt{  
   text-align:left;
-  padding-left:20px;
-  font-size:20px;}
+  font-size: 25px;
+  padding:10px;}
 
 
 }
@@ -299,6 +275,7 @@ img{width:100%;}
   </div>
 </div>
 </div>
+
 
 
 
@@ -329,51 +306,36 @@ img{width:100%;}
 
 
 
-
-
-
-
 </div>
 
 </div>
 </div></nav><br><br>
 
 <main>
-<h1>  Why Families Choose Homeschooling </h1><hr>
+<h1> Why Families Choose Homeschooling </h1><hr>
 
 
 
 
 
-<div class="div4">
 
 
 
+<div class="div"><div class="dropshadow">
 
-<div class="dropshadow" style="padding:10px;"> 
-
-<div style="text-align:center;"><img src="whyfamilieschoose.jpg"></div>
-  
+ <div style="text-align:center;"><img src="whyfamilieschoose.jpg"></div>
  <div style="text-align:center;"><b> Reasons Behind the Decision </b></div><br>
 
 Homeschooling is more than just an educational choice - it’s a lifestyle. For many families, it opens the door to a more flexible, personalized, and meaningful way to educate their children.<br><br>
 
 But what makes parents decide to take education into their own hands? Today, we’ll explore why families choose homeschooling, based on real reasons, personal values, and family needs.
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -386,7 +348,6 @@ But what makes parents decide to take education into their own hands? Today, we�
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -396,12 +357,7 @@ But what makes parents decide to take education into their own hands? Today, we�
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 1. Academic Flexibility and Personalized Learning  </b></div><br>
 
@@ -411,28 +367,19 @@ One of the top reasons parents choose to homeschool is the ability to tailor lea
 &#9755;  Lena, homeschooling mom of two<br><br>
 
 <b>Benefits:</b><br>
-
 &#8277; Move quickly through easy topics, take time on hard ones<br>
-
-&#8277; Customize curriculum to fit a child’s<a class="link" target="_blank" 
+&#8277; Customize curriculum to fit a child’s <a class="link" target="_blank" 
 href="learningstyles.html">Learning Style </a> <br>
-
 &#8277; Focus on mastery over grades
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
 
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -445,7 +392,6 @@ href="learningstyles.html">Learning Style </a> <br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -453,43 +399,21 @@ href="learningstyles.html">Learning Style </a> <br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 2. Flexible Schedule and Lifestyle Freedom  </b></div><br>
 
-Homeschooling gives families freedom to create a schedule that works for them. Whether it’s traveling off-season, learning in the evenings, or taking breaks when needed—homeschooling fits life, not the other way around.<br><br>
+Homeschooling gives families freedom to create a schedule that works for them. Whether it’s traveling off-season, learning in the evenings, or taking breaks when needed - homeschooling fits life, not the other way around.<br><br>
 
 “We travel for work and homeschool on the road. It’s been a beautiful way to teach geography and history firsthand.”<br>
 &#9755; Wael, father of three<br><br>
 
 <b>Benefits:</b><br>
-
 &#8277; Travel learning (roadschooling/worldschooling)<br>
-
 &#8277; More time for hobbies, family time, and rest<br>
-
 &#8277; School days can start at 9 AM or 3 PM!
 
-<br><br></div>
+</div><br><br></div>
 
 
 
@@ -498,8 +422,7 @@ Homeschooling gives families freedom to create a schedule that works for them. W
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -512,7 +435,6 @@ Homeschooling gives families freedom to create a schedule that works for them. W
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -522,13 +444,7 @@ Homeschooling gives families freedom to create a schedule that works for them. W
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 3. Faith-Based or Values-Centered Education  </b></div><br>
 
@@ -538,25 +454,18 @@ Some families homeschool to integrate their religious beliefs or personal values
 &#9755; Sarah, homeschool mom of four<br><br>
 
 <b>Benefits:</b><br>
-
 &#8277; Control over content and worldview<br>
-
 &#8277; Incorporate spiritual formation and character education<br>
-
 &#8277; Avoid materials that conflict with family values
 
-<br><br></div>
+
+</div><br><br></div>
 
 
 
 
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -569,7 +478,6 @@ Some families homeschool to integrate their religious beliefs or personal values
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -579,28 +487,21 @@ Some families homeschool to integrate their religious beliefs or personal values
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 4. Concerns About Traditional Schooling  </b></div><br>
 
 Many families are concerned about aspects of public or private schooling, such as:<br><br>
 
 &#8277; Bullying or peer pressure <br>
-
 &#8277; Class sizes and teacher-student ratio <br>
-
 &#8277; Standardized testing and lack of creativity <br>
-
 &#8277; Curriculum content that doesn’t reflect family values or needs <br><br>
 
 “My daughter was anxious every day before school. Now that we homeschool, she’s thriving emotionally and academically.”<br>
 &#9755; Priya, mother of a 9-year-old
 
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
@@ -609,8 +510,9 @@ Many families are concerned about aspects of public or private schooling, such a
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
 
+
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -623,7 +525,6 @@ Many families are concerned about aspects of public or private schooling, such a
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -633,49 +534,31 @@ Many families are concerned about aspects of public or private schooling, such a
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 5. Special Needs or Gifted Children </b></div><br>
 
 Homeschooling offers an adaptable environment for children who are:<br><br>
 
 &#8277; On the autism spectrum<br>
-
 &#8277; Have ADHD, dyslexia, or learning delays<br>
-
 &#8277; Are advanced or gifted learners <br><br>
 
 <b>Benefits:</b><br>
-
 &#8277; One-on-one attention<br>
-
 &#8277; Sensory-friendly environment<br>
-
 &#8277; More time for therapies, movement, or breaks <br><br>
 
 “My son is gifted and was constantly bored in school. Homeschooling lets him explore topics years ahead of his grade level.”<br>
 
 &#9755; Thomas, homeschooling dad
 
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -688,7 +571,6 @@ Homeschooling offers an adaptable environment for children who are:<br><br>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -698,13 +580,7 @@ Homeschooling offers an adaptable environment for children who are:<br><br>
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 6. Freedom to Be Creative and Hands-On </b></div><br>
 
@@ -714,18 +590,13 @@ Homeschooling often means fewer worksheets and more real-life learning. Kids can
 
 &#9755; Ella, unschooling mom
 
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -738,7 +609,6 @@ Homeschooling often means fewer worksheets and more real-life learning. Kids can
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -748,10 +618,7 @@ Homeschooling often means fewer worksheets and more real-life learning. Kids can
 
 
 
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"><b> 7. Strengthening Family Bonds </b></div><br>
 
@@ -762,28 +629,16 @@ With more time together, many homeschooling families report deeper connections b
 &#9755; James, homeschooling parent<br><br>
 
 <b>Benefits:</b><br>
-
 &#8277; More meaningful conversations<br>
-
 &#8277; Shared learning experiences<br>
-
 &#8277; Teaching life skills at home
 
-
-<br><br></div>
-
-
- 
+</div><br><br></div>
 
 
 
 
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -796,7 +651,6 @@ With more time together, many homeschooling families report deeper connections b
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -808,151 +662,78 @@ With more time together, many homeschooling families report deeper connections b
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
-  
+
+
+
+
+<div class="div"><div class="dropshadow">
+
  <div style="text-align:center;"><b> Your Reason Might Be Unique </b></div><br>
 
-No two homeschooling journeys are the same. Some families start out of necessity and fall in love with it. Others plan from the beginning. Whether you're choosing it for just one year or for the entire education journey, your reason is valid.
-
-
-<br><br></div>
-
-
- 
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
-     crossorigin="anonymous"></script>
-<!-- display ad square -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9378112907941893"
-     data-ad-slot="3318675700"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+No two homeschooling journeys are the same. Some families start out of necessity and fall in love with it. Others plan from the beginning. Whether you're choosing it for just one year or for the entire education journey, your reason is valid.<br><br>
   
  <div style="text-align:center;">  Reflect! <b> What’s Your Why? </b></div><br>
 
-
 Before you begin homeschooling, take time to write down your core reasons. This will keep you grounded during tough days and help you stay focused on your goals.<br><br>
 
-
 <b>Write a list titled:</b> “Why We Homeschool”<br>
-Revisit it anytime you feel overwhelmed or uncertain.<br><br>
+Revisit it anytime you feel overwhelmed or uncertain.<br><hr>
 
 Read &#9755;   
 <a class="link" target="_blank" href="howtostarthomeschooling.html"> “How to Start Homeschooling Step by Step” </a> – a practical guide to taking the leap with confidence.
 
+</div><br><br></div>
 
 
 
 
-<br><br></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div><br>
-</main>
-
-
-
-<footer>
-<div style="display:grid; grid-template-columns: 1fr 1fr;">
-
-<div class="prevlesson">
-Read <a class="link" target="_blank" 
-href="homeschoolapproach.html">&#9755;  Homeschooling Approach  </a>
-</div>
-
-<div class="nextlesson">
-Read <a class="link" target="_blank" 
-href="learningstyles.html">&#9755; Learning Styles</a>
-</div>
-       </div><br>
-</footer>
-
-
-
-
-
-
-
-</div>
-
+<div class="ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-
-  var sound1 = new Audio();
-  sound1.src = "l1/1.mp3";
-
-
-
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main><br>
+
+
+
+
+
+
+
+</div>
+ 
+
+
+
+
+
 
 
 
 </body>
 </html>
-
