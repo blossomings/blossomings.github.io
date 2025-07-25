@@ -2,6 +2,7 @@
 <html>
 <head>
 
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QCCH2QS7S"></script>
 <script>
@@ -11,6 +12,8 @@
 
   gtag('config', 'G-0QCCH2QS7S');
 </script>
+
+
 
 
 
@@ -29,8 +32,8 @@
 
 <link rel="icon" type="image/x-icon" href="logo.ico">
 
-<meta name="description" content="Homeschool Schedule.">
-  <meta name="keywords" content=" How to start homeschooling, Homeschool Materials, Homeschooling Your Kids.">
+<meta name="description" content=" Homeschool Schedule.">
+  <meta name="keywords" content=" Homeschool Schedule, Homeschool Record Keeping & Assessment, Homeschooling Multiple Ages, Homeschool Methods, A Grade-by-Grade Homeschool Guide, How to start homeschooling, Homeschool Materials, Homeschooling Your Kids,  Grades Checklist.">
 
 <style>
 body{background: white; height:100%; margin:0;}
@@ -87,19 +90,6 @@ body{background: white; height:100%; margin:0;}
 
 
 
-.div{
-display:grid; 
-grid-template-columns:900px; 
-justify-content:center; 
-cursor:pointer;}
-
-.div1{ 
-text-align: left; 
-font-size:30px; 
-background:#F1F7ED; 
-padding:10px; 
-border-radius:6px; box-shadow: 1px 1px 1px grey;}
-
 .p{
 text-align:center; 
 font-size:40px; 
@@ -110,7 +100,6 @@ margin:0;}
 h1{
   text-align:center;
   font-size:40px;
-  padding:5px;
   margin:0; 
   background-image:url("paint.jpg");
   -webkit-text-fill-color:transparent; 
@@ -119,47 +108,43 @@ h1{
 .dropshadow{
   tansition: box-shadow 0.5s ease; 
   padding:10px;
+  text-align:left;
   border-radius:5px;}
 
 .dropshadow:hover{
   box-shadow: 10px 10px 20px grey;}
 
+
+a {text-decoration:none; color:BurlyWood; 
+-webkit-text-stroke:0.2px black; transition: filter 0.5s ease; }
+a:hover { filter: drop-shadow(10px 10px 10px grey);}
+
+
 img{
   width:500px;
-  border-radius: 10px;
-  }
+  border-radius: 10px;}
 
+
+
+.div{
+display:grid; 
+grid-template-columns:800px; 
+justify-content:center; 
+font-size: 25px;
+cursor:pointer;}
+
+.div1{display:grid; grid-template-columns:1fr 1fr;}
 .div2{display:grid; grid-template-columns:1fr 1fr;}
 .div3{display:grid; grid-template-columns:1fr 1fr 1fr;}
-.div4{
-  display:grid;
-  grid-template-columns:1fr 400px;
-  text-align:left;
-  font-size: 25px;}
+.div4{display:grid; grid-template-columns:1fr 1fr 1fr 1fr;}
 
 
 
-.div5{
-  display:grid; 
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-  font-size:40px;
-  text-align:center;}
-
-.div5:hover> :not(:hover){
+.div9:hover> :not(:hover){
   filter:blur(5px);
   opacity:0.5;
 }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:25px;}
-
-.prevlesson{
-  text-align:left;
-  padding-left:20px;
-  font-size:25px;}
 
 
 .button{
@@ -171,17 +156,15 @@ img{
 
 
 .buttons{
-  background:none;
+  background:white;
   cursor:pointer;
-  font-size:25px;
+  font-size:35px;
   border-radius: 5px;
   border:none;
   font-family: Times New Roman;
   }
 
-.link{text-decoration: none; color:purple; transition:1s; padding:7px; border-radius:5px; }
-.link:hover{box-shadow: 5px 5px 5px black;}
-
+.ad{text-align:center;}
 
 
 .tomato{background:tomato; border-radius:15px 50px 30px; 
@@ -195,8 +178,7 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 
 .lightgrey{background:#AEB6BF; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
 
-.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; color:white;}
-
+.lightyellow{background:#ffff80; border-radius:15px 50px 30px; margin-bottom: 10px; padding:15px; text-align:center; }
 
 
 @media only screen and (max-width: 1000px){
@@ -230,20 +212,19 @@ margin-bottom: 10px; padding:15px; text-align:center;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background: white; color:black; }
 
-.div{display:grid; grid-template-columns: 1fr;}
-.div1{font-size:25px;}
-.p{text-align:center; font-size:20px;}
-
 .wrapper{overflow-x:hidden;}
 
 h1{font-size:20px;}
 
 img{width:100%;}
 
+
+.div{display:grid; grid-template-columns: 1fr; font-size: 20px;}
+.div1{display:grid; grid-template-columns: 1fr}
 .div2{display:grid; grid-template-columns: 1fr;}
 .div3{display:grid; grid-template-columns: 1fr;}
 .div4{display:grid; grid-template-columns: 1fr; font-size: 20px;}
-.div5{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; font-size:25px;}
+.div5{display:grid; grid-template-columns: 1fr;}
 
 
 .button{
@@ -257,6 +238,7 @@ img{width:100%;}
 
 
 .buttons{
+  background:white;
   cursor:pointer;
   font-size:20px;
   border-radius: 5px;
@@ -264,16 +246,10 @@ img{width:100%;}
   font-family: Times New Roman;
   }
 
-
-.nextlesson{
-  text-align:right;
-  padding-right:20px;
-  font-size:20px;}
-
-.prevlesson{
+.pt{  
   text-align:left;
-  padding-left:20px;
-  font-size:20px;}
+  font-size: 25px;
+  padding:10px;}
 
 
 }
@@ -299,6 +275,7 @@ img{width:100%;}
   </div>
 </div>
 </div>
+
 
 
 
@@ -330,27 +307,22 @@ img{width:100%;}
 
 
 
-
-
-
 </div>
 
 </div>
 </div></nav><br><br>
 
 <main>
-<h1>  Creating a Homeschool Schedule That Works for Your Family  </h1><hr>
+<h1> Creating a Homeschool Schedule That Works for Your Family </h1><hr>
 
 
 
 
 
-<div class="div4">
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
 
 <div style="text-align:center;"><img src="homeschoolschedule.jpg"></div>
 
@@ -361,11 +333,7 @@ Unlike traditional school, homeschooling gives you full control over your routin
 
 In this post, we’ll explore how to create a homeschool schedule that’s simple, adaptable, and stress-free.
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
@@ -373,8 +341,7 @@ In this post, we’ll explore how to create a homeschool schedule that’s simpl
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -387,7 +354,6 @@ In this post, we’ll explore how to create a homeschool schedule that’s simpl
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -397,44 +363,39 @@ In this post, we’ll explore how to create a homeschool schedule that’s simpl
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;">Step 1: <b> Choose a Daily Rhythm or Routine  </b></div><br>
 
 Instead of a strict hourly schedule, many homeschoolers prefer a rhythm, a flexible order of activities that repeats each day.<br><br>
 
-<b>Sample Daily Rhythm:</b><br>
+ <div style="text-align:center;">Sample Daily Rhythm</div><br>
 
-&#8277; Morning: Breakfast, chores, read-aloud<br>
+<b> Morning:</b><br> 
+Breakfast, chores, read-aloud<br><br>
 
-&#8277; Mid-Morning: Math + Language Arts<br>
+<b> Mid-Morning: </b><br>
+Math + Language Arts<br><br>
 
-&#8277; Late Morning: Snack + Science or Social Studies<br>
+<b> Late Morning: </b><br>
+Snack + Science or Social Studies<br><br>
 
-&#8277; Afternoon: Free time, nature walk, creative play<br>
+<b> Afternoon: </b><br>
+Free time, nature walk, creative play<br><br>
 
-&#8277; Evening: Reading, games, family time
+<b> Evening: </b><br>
+Reading, games, family time
 
-
-
-
-
-<br><br></div>
-
-
-
+</div><br><br></div>
 
 
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
 
+
+
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -447,7 +408,6 @@ Instead of a strict hourly schedule, many homeschoolers prefer a rhythm, a flexi
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -455,18 +415,7 @@ Instead of a strict hourly schedule, many homeschoolers prefer a rhythm, a flexi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;">Step 2: <b> Pick a Weekly Structure That Suits You  </b></div><br>
 
@@ -482,7 +431,7 @@ Friday for field trips, projects, or rest<br><br>
 
 <b>Loop Schedule</b><br>
 
-Instead of assigning subjects to specific days, rotate through them in a loop. If something is skipped one day, it just comes up next.<br>
+Instead of assigning subjects to specific days, rotate through them in a loop. If something is skipped one day, it just comes up next.<br><br>
 
 <b>Loop</b> = Science → Art → Geography → Music<br>
 Each day, do the next one in line after your core subjects.<br><br>
@@ -494,11 +443,7 @@ Monday = Math & History <br>
 Tuesday = Reading & Science
 
 
-
-
-
-
-<br><br></div>
+</div><br><br></div>
 
 
 
@@ -507,8 +452,7 @@ Tuesday = Reading & Science
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -521,7 +465,6 @@ Tuesday = Reading & Science
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -531,43 +474,36 @@ Tuesday = Reading & Science
 
 
 
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;">Step 3: <b> Understand How Much Time You Really Need  </b></div><br>
 
 Homeschooling is usually much faster than traditional school. Why? Because you’re teaching 1-on-1, without classroom transitions, distractions, or busywork.<br><br>
 
-<b>General Daily Time Guidelines:</b><br>
+ <div style="text-align:center;">General Daily Time Guidelines</div><br>
 
-&#8277; Preschool-K: 30 minutes-1.5 hours<br>
+<b>Preschool-K:</b><br> 
+30 minutes-1.5 hours<br><br>
 
-&#8277; Grades 1-3: 2-3 hours<br>
+<b>Grades 1-3:</b><br>
+2-3 hours<br><br>
 
-&#8277; Grades 4-6: 3-4 hours<br>
+<b>Grades 4-6:</b><br>
+3-4 hours<br><br>
 
-&#8277; Middle/High School: 4-6 hours<br><br>
+<b>Middle/High School:</b><br>
+4-6 hours<br><br>
 
-Remember: Learning includes more than workbooks! Reading aloud, cooking, gardening, building, and playing are all valuable learning moments.
-
-
-<br><br></div>
-
-
-
+<b>Remember:</b> Learning includes more than workbooks! Reading aloud, cooking, gardening, building, and playing are all valuable learning moments.
 
 
-
+</div><br><br></div>
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
 
+
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -580,7 +516,6 @@ Remember: Learning includes more than workbooks! Reading aloud, cooking, gardeni
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -590,53 +525,36 @@ Remember: Learning includes more than workbooks! Reading aloud, cooking, gardeni
 
 
 
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"> Step 4: <b> Balance Core and Enrichment Subjects </b></div><br>
 
 Make sure your schedule reflects a balance between “must-do” core subjects and “fun” extras.<br><br>
 
 <b>Core Subjects:</b><br>
-
 &#8277; Math<br>
-
 &#8277; Reading & Writing <br>
-
 &#8277; Science <br>
-
 &#8277; History/Social Studies<br><br>
 
 <b>Enrichment:</b><br>
-
 &#8277; Art <br>
-
 &#8277; Music <br>
-
 &#8277; PE/Movement <br>
-
 &#8277; Foreign Language <br>
-
 &#8277; Life Skills (cooking, budgeting, gardening)<br><br>
 
 <b>Tip:</b> Don’t try to do everything every day. Rotate!
 
 
-
-
-
-<br><br></div>
-
+</div><br><br></div>
 
 
 
 
 
 
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -649,7 +567,6 @@ Make sure your schedule reflects a balance between “must-do” core subjects a
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
    </div>
 
 
@@ -659,47 +576,43 @@ Make sure your schedule reflects a balance between “must-do” core subjects a
 
 
 
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
+<div class="div"><div class="dropshadow">
   
  <div style="text-align:center;"> Step 5: <b> Include Breaks and Downtime </b></div><br>
 
 Kids (and adults!) need time to recharge. Build regular breaks into your routine to prevent burnout.<br><br>
 
-<b>Sample Schedule with Breaks:</b><br>
+ <div style="text-align:center;"> Sample Schedule with Breaks </div><br>
 
-&#8277; 9:00-9:30: Morning circle time / read-aloud<br>
+9:00-9:30: <br>
+Morning circle time / read-aloud<br><br>
 
-&#8277; 9:30-10:15: Math<br>
+9:30-10:15: <br>
+Math<br><br>
 
-&#8277; 10:15-10:30: Snack & stretch<br>
+10:15-10:30: <br>
+Snack & stretch<br><br>
 
-&#8277; 10:30-11:15: Language Arts<br>
+10:30-11:15: <br>
+Language Arts<br><br>
 
-&#8277; 11:15-12:00: Science or History<br>
+11:15-12:00: <br>
+Science or History<br><br>
 
-&#8277; 12:00-1:00: Lunch + free play<br>
+12:00-1:00: <br>
+Lunch + free play<br><br>
 
-&#8277; 1:00-2:00: Art, project work, or quiet reading
+1:00-2:00: <br>
+Art, project work, or quiet reading
 
-
-
-<br><br></div>
-
-
-
-
-
-
-
+</div><br><br></div>
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
 
+
+
+
+<div class="ad">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
      crossorigin="anonymous"></script>
 <!-- display ad square -->
@@ -712,7 +625,48 @@ Kids (and adults!) need time to recharge. Build regular breaks into your routine
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+   </div>
 
+
+
+
+
+
+
+
+
+<div class="div"><div class="dropshadow">
+  
+ <div style="text-align:center;">   <b> Final Thoughts </b></div><br>
+
+Homeschool record keeping doesn’t have to be overwhelming. Whether you jot things down in a planner, take weekly photos, or build a year-end portfolio, the goal is to document your child’s learning journey with purpose and joy.<br><br>
+
+Stay flexible, stay organized, and most importantly - celebrate the growth.<br><hr>
+
+Read &#9755;   
+<a class="link" target="_blank" href="homeschoolsocialization.html">  “Socialization in Homeschooling: Busting the Myth & Finding Community” </a> We’ll explore how homeschooled kids build friendships and social skills in real-life settings.
+
+</div><br><br></div>
+
+
+
+
+
+
+
+<div class="ad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
+     crossorigin="anonymous"></script>
+<!-- display ad square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9378112907941893"
+     data-ad-slot="3318675700"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
    </div>
 
 
@@ -728,51 +682,6 @@ Kids (and adults!) need time to recharge. Build regular breaks into your routine
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
-  
- <div style="text-align:center;"> Step 6: <b> Observe and Adjust </b></div><br>
-
-The best homeschool schedules are living schedules, they change with your family’s needs. <br><br>
-
-<b>Ask Yourself Weekly: </b><br>
-&#8277; What’s working?<br>
-
-&#8277; What feels rushed or stressful?<br>
-
-&#8277; Is my child engaged, tired, or bored?<br>
-
-&#8277; Do I need more structure or more flexibility?<br><br>
-
-
-Keep a weekly journal or planner to reflect and tweak as needed.
-
-
-
-<br><br></div>
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;" align="center">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
-     crossorigin="anonymous"></script>
-<!-- display ad square -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9378112907941893"
-     data-ad-slot="3318675700"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-   </div>
 
 
 
@@ -784,45 +693,18 @@ Keep a weekly journal or planner to reflect and tweak as needed.
 
 
 
-<div class="dropshadow" style="padding:10px;"> 
-  
- <div style="text-align:center;"><b> Real-Life Homeschool Schedule Examples </b></div><br>
 
 
-<b> Relaxed Schedule </b> (Charlotte Mason Style) <br>
-&#8277; Morning: Short lessons in math, reading, and copywork<br>
 
-&#8277; Midday: Nature walk + narration<br>
-
-&#8277; Afternoon: Art, handcrafts, music appreciation<br><br>
-
-
-<b>Structured Schedule</b>  (Traditional Style) <br>
-&#8277; 9:00–10:00: Math<br>
-
-&#8277; 10:00–11:00: Language Arts<br>
-
-&#8277; 11:00–12:00: Science/History (alternating days)<br>
-
-&#8277; 1:00–2:00: Online class or workbook<br>
-
-&#8277; 2:00+: Enrichment or free time<br><br>
-
-
-<b> Minimalist Preschool Homeschool </b><br>
-&#8277; 30 minutes of play-based learning: songs, puzzles, letter games<br>
-
-&#8277; Read-aloud time<br>
-
-&#8277; Nature play and snack
+</main><br>
 
 
 
 
 
-<br><br></div>
 
 
+</div>
  
 
 
@@ -832,140 +714,5 @@ Keep a weekly journal or planner to reflect and tweak as needed.
 
 
 
-<div class="dropshadow" style="padding:10px;" align="center">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9378112907941893"
-     crossorigin="anonymous"></script>
-<!-- display ad square -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9378112907941893"
-     data-ad-slot="3318675700"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="dropshadow" style="padding:10px;"> 
-  
- <div style="text-align:center;">   <b> Final Thoughts </b></div><br>
-
-
-A homeschool schedule is meant to serve your family, not stress you out. It should feel like a rhythm that gives structure and space to grow. And it can change as your seasons change.<br><br>
-
-There’s no perfect homeschool schedule, only the one that helps your child thrive.<br><br>
-
-
-Read &#9755;   
-<a class="link" target="_blank" href="organizinghomeschool.html"> “Organizing Your Homeschool Space: Simple Setups That Work” </a> We’ll explore how to create a learning-friendly space, even if you don’t have a dedicated homeschool room.
-
-
-
-
-
-<br><br></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div><br>
-</main>
-
-
-
-<footer>
-<div style="display:grid; grid-template-columns: 1fr 1fr;">
-
-<div class="prevlesson">
-Read <a class="link" target="_blank" 
-href="lifeskills.html">&#9755;  Life Skills  </a>
-</div>
-
-<div class="nextlesson">
-Read <a class="link" target="_blank" 
-href="learningstyles.html">&#9755; Learning Styles</a>
-</div>
-       </div><br>
-</footer>
-
-
-
-
-
-
-
-</div>
-
-<script>
-
-  var sound1 = new Audio();
-  sound1.src = "l1/1.mp3";
-
-
-
-</script>
-
-
-
 </body>
 </html>
-
