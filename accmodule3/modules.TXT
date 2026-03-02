@@ -1,0 +1,387 @@
+Format
+lesson objectives, vocabulary, notes, activities, case study, quiz
+
+
+
+Module 1: Foundations of Accounting (Classes 1–15)
+1. Introduction to Accounting
+
+Objectives: Understand what accounting is and why it matters.
+Topics: Definition, history, purpose, bookkeeping vs accounting.
+Practice: Identify accounting in real-life scenarios.
+Assignment: Short reflection: “Why accounting is essential in business.”
+
+2. Users & Purposes of Accounting
+
+Topics: Internal vs external users, decision-making.
+Practice: Match users to the type of information they need.
+Assessment: Quick quiz.
+
+3. Business Types & Accounting Assumptions
+
+Topics: Sole proprietorship, partnership, corporation; economic entity, going concern, time period.
+Practice: Choose the correct assumption in scenarios.
+
+4. Accounting Principles (GAAP/IFRS)
+
+Topics: Consistency, prudence, matching, IFRS vs GAAP differences.
+Activity: Mini case study comparison.
+
+5. Accounting Equation & Real-Life Scenarios
+
+Practice: Expand and apply the equation to daily business transactions.
+Assessment: Equation worksheet.
+
+6. Double-Entry System Basics
+
+Topics: Why double entry exists; debit/credit logic.
+Practice: Analyze simple transactions.
+
+7. Debit/Credit Masterclass
+
+Topics: Rules for assets, liabilities, equity, revenue, expenses.
+Practice: Debit/credit drills.
+
+8. Chart of Accounts
+
+Topics: Account numbering, structure, customization.
+Practice: Create a chart of accounts for a sample business.
+
+9. Journals – Special & General
+
+Topics: Sales journal, purchases journal, cash receipts, cash payments.
+Practice: Journal entries for a small business.
+
+10. Ledger Posting
+
+Topics: Posting from journal to ledger; T-accounts.
+Practice: Prepare ledgers.
+
+11. Trial Balance
+
+Topics: Purpose; detecting errors.
+Practice: Create a trial balance from ledgers.
+
+12. Accounting Errors & Suspense Accounts
+
+Topics: Types of errors, error correction.
+Practice: Correct supplied errors.
+
+13. Accrual vs Cash Accounting
+
+Topics: Timing differences; revenue recognition.
+Practice: Convert cash to accrual.
+
+14. Adjusting Entries (Part 1)
+
+Topics: Prepaid expenses, unearned revenue.
+Practice: Adjusting entry worksheet.
+
+15. Adjusting Entries (Part 2)
+
+Topics: Accrued revenue, accrued expenses, depreciation basics.
+Assessment: End-of-module test.
+
+Module 2: Completing the Accounting Cycle (Classes 16–25)
+16. Adjusted Trial Balance
+
+Practice: Prepare ATB from unadjusted plus adjustments.
+
+17. Income Statement
+
+Topics: Format, multi-step vs single-step.
+Practice: Build an income statement.
+
+18. Balance Sheet
+
+Topics: Classified vs unclassified.
+Activity: Prepare a classified balance sheet.
+
+19. Statement of Owner’s Equity
+
+Topics: Capital, drawings/withdrawals.
+Practice: Complete SOE for a small business.
+
+20. Statement of Cash Flows (Intro)
+
+Method: Indirect vs direct.
+Practice: Operating activities adjustments.
+
+21. Comprehensive Financial Statement Preparation
+
+Activity: Prepare all four statements from a trial balance.
+
+22. Closing Entries
+
+Topics: Closing revenue, expense, income summary.
+Practice: Journalize and post.
+
+23. Post-Closing Trial Balance
+
+Topics: Purpose, accounts remaining.
+Activity: Create PCTB.
+
+24. Full Cycle Practice Quiz
+
+Assessment: Full cycle MCQ + practical.
+
+25. Mini-Project Submission
+
+Students complete a full accounting cycle for a fictional business.
+
+Module 3: Cash, Receivables, Payables (Classes 26–35)
+26. Cash Controls
+
+Topics: Internal controls, cash handling.
+Practice: Identify weak controls.
+
+27. Bank Reconciliation
+
+Practice: Prepare reconciliation from statement + ledger.
+
+28. Petty Cash Systems
+
+Activity: Petty cash vouchers and replenishment entries.
+
+29. Accounts Receivable
+
+Topics: Recognition, sales on credit.
+Practice: Credit sales journal.
+
+30. Notes Receivable
+
+Topics: Promissory notes, maturity date.
+Practice: Calculate interest.
+
+31. Allowance for Doubtful Accounts
+
+Methods: Percent of AR, percent of sales, aging method.
+Practice: Create allowance entries.
+
+32. Accounts Payable
+
+Topics: Vendor accounts; control.
+Practice: AP aging schedule.
+
+33. Notes Payable
+
+Topics: Negotiating terms, interest.
+Practice: Prepare amortization schedule.
+
+34. Interest Calculations & Amortization
+
+Activity: Loan amortization tables.
+
+35. Credit Policies & Collection Management
+
+Topics: Risk assessment; credit scoring.
+Assessment: Case study.
+
+Module 4: Inventory & Costing (Classes 36–50)
+36. Inventory Systems
+
+Topics: Perpetual vs periodic.
+Practice: Compare COGS results.
+
+37. FIFO
+38. LIFO
+39. Weighted Average
+
+For each lesson:
+Topics: Calculation + income effects.
+Practice: Apply method to given inventory data.
+
+40. Retail Inventory Method
+
+Practice: Estimate ending inventory.
+
+41. Inventory Errors & Effects
+
+Topics: Income statement and balance sheet impacts.
+Activity: Error correction problems.
+
+42. Merchandise Transactions
+
+Practice: Purchase and sales entries under periodic/perpetual.
+
+43. Cost of Goods Sold
+
+Topics: Formula, calculation.
+Practice: COGS worksheet.
+
+44. Stock Count & Inventory Controls
+
+Topics: Cycle counts, shrinkage.
+Activity: Identify control weaknesses.
+
+45. Introduction to Cost Accounting
+
+Topics: Types of costs, direct vs indirect.
+Practice: Classify costs.
+
+46. Job Order Costing
+
+Practice: Job cost sheets.
+
+47. Process Costing
+
+Topics: Equivalent units, weighted average.
+Practice: Compute EUP.
+
+48. Activity-Based Costing
+
+Activity: Allocate overhead using cost drivers.
+
+49. Overhead Allocation
+
+Topics: Traditional vs refined methods.
+Practice: Allocate overhead to departments.
+
+50. Cost-Volume-Profit Analysis
+
+Topics: BEP, margin of safety.
+Practice: Break-even charts.
+
+Module 5: Fixed Assets, Equity, Advanced Liabilities (Classes 51–65)
+51. Classification of Assets
+
+Activity: Identify asset categories.
+
+52. Capitalization vs Expense
+
+Practice: Decide which items to capitalize.
+
+53. Depreciation – Straight Line
+
+Practice: Depreciation schedule.
+
+54. Depreciation – Declining Balance & Units of Production
+
+Practice: Apply DB and UOP.
+
+55. Revaluation Model (IFRS)
+
+Topics: Revaluation surplus, impairment.
+Practice: Revaluation entries.
+
+56. Asset Disposal
+
+Topics: Gain/loss recognition.
+Practice: Disposal problems.
+
+57. Impairment
+
+Topics: Recoverable amount; write-down.
+Practice: Impairment calculations.
+
+58. Natural Resources & Depletion
+
+Practice: Depletion rate & expense.
+
+59. Intangibles & Amortization
+
+Topics: Patents, goodwill.
+Practice: Amortization schedules.
+
+60. Current Liabilities
+
+Topics: Wages payable, taxes payable, unearned revenue.
+
+61. Long-Term Liabilities
+
+Topics: Notes, leases, bonds.
+
+62. Bonds – Issuance & Interest
+
+Practice: Issue at par.
+
+63. Bonds – Premium/Discount Amortization
+
+Practice: Effective interest method.
+
+64. Shareholders’ Equity
+
+Topics: Shares, paid-in capital.
+
+65. Dividends & Stock Splits
+
+Practice: Entries + effects on equity.
+
+Module 6: Financial Analysis & Managerial Accounting (Classes 66–75)
+66. Horizontal Analysis
+
+Practice: Trend percentages.
+
+67. Vertical Analysis
+
+Activities: Common-size statements.
+
+68. Ratio Analysis – Liquidity
+
+Topics: CR, QR, AR turnover.
+
+69. Ratio Analysis – Profitability
+
+Topics: GPM, NPM, ROA, ROE.
+
+70. Ratio Analysis – Solvency
+
+Topics: Debt ratio, times interest earned.
+
+71. Budgeting & Master Budget
+
+Practice: Sales, production, cash budgets.
+
+72. Variance Analysis
+
+Topics: Material, labor, overhead variances.
+Practice: Compute variances.
+
+73. Decision-Making with Accounting Info
+
+Topics: Make-or-buy, drop/keep.
+
+74. Relevant Costing
+
+Case Study: Special order decisions.
+
+75. Capital Budgeting (NPV/IRR Basics)
+
+Practice: Evaluate two investment options.
+
+Module 7: Professional Tools, Ethics & Software (Classes 76–80)
+76. Internal Controls & Fraud Prevention
+
+Topics: Segregation of duties; fraud triangle.
+Case Study: Identify fraud risks.
+
+77. Taxation Basics
+
+Topics: Income tax, VAT, withholding, tax returns.
+Practice: Simple tax computations.
+
+78. Excel for Accounting
+
+Practice: Build templates for:
+
+Depreciation
+
+VAT return
+
+Inventory
+
+Cash flows (indirect method)
+
+79. Accounting Software – Full Cycle Demo
+
+You may use: QuickBooks, Zoho Books, Tally, Sage, or Wave.
+Activity: Students complete a small business cycle.
+
+80. Final Project Presentation
+
+Students prepare and submit a full accounting portfolio, including:
+✔ Financial statements
+✔ Analysis report
+✔ Budget
+✔ Excel templates
+✔ Reflection
