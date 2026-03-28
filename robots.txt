@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blossomings.github.io/sitemap.xml
