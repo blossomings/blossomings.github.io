@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
   <url>
     <loc>https://blossomings.github.io/</loc>
   </url>
 
-  <!-- Main Pages -->
   <url>
     <loc>https://blossomings.github.io/phonics.html</loc>
   </url>
@@ -39,12 +37,10 @@
     <loc>https://blossomings.github.io/bookshop.html</loc>
   </url>
 
-  <!-- Grammar -->
   <url>
     <loc>https://blossomings.github.io/grammar/grammarlessons.html</loc>
   </url>
 
-  <!-- Charts -->
   <url>
     <loc>https://blossomings.github.io/charts/charts.html</loc>
   </url>
